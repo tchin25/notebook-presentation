@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import GridPoint from "./GridPoint.vue";
-import page from '../assets/page.jpg'
+import page from "../assets/page.jpg";
 function generateCrossGrid(
   x: number,
   y: number,
@@ -356,18 +356,25 @@ function generateCrossGrid(
       </div>
       <div>
         <p>
-          So I increased the size of the X to the point where the tips can mark thirds
+          So I increased the size of the X to the point where the tips can mark
+          thirds
         </p>
       </div>
     </div>
   </section>
+  <section>
+    <h1>So I've just been showing some random css animations</h1>
+  </section>
   <section :data-background-image="page">
     <section>
-        <h1>This is what the grid looks like</h1>
+      <h1>This is what the grid looks like</h1>
     </section>
     <section>
-        <h2>Colours taken from our brand guidelines</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wikimedia_Brand_Guidelines_Update_2022_Wikimedia_Colors_Creative-palette-strong.png" alt="">
+      <h2>Colours taken from our brand guidelines</h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Wikimedia_Brand_Guidelines_Update_2022_Wikimedia_Colors_Creative-palette-strong.png"
+        alt=""
+      />
     </section>
   </section>
 
