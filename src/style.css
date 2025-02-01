@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+  gap: 1em 1em;
+}
+.subgrid {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-11 {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+  grid-template-rows: repeat(11, minmax(0, 1fr));
+  aspect-ratio: 1/1;
+  background-size: 9.09% 9.09%;
+  /* background-image: linear-gradient(
+        to right,
+        rgb(78, 78, 78) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgb(78, 78, 78) 1px, transparent 1px); */
+  /* filter: blur(1px); */
+}
+.grid-25 {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(25, minmax(0, 1fr));
+  grid-template-rows: repeat(25, minmax(0, 1fr));
+  aspect-ratio: 1/1;
+  background-size: 4% 4%;
+  /* background-image: linear-gradient(
+        to right,
+        rgb(78, 78, 78) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgb(78, 78, 78) 1px, transparent 1px); */
+  /* filter: blur(1px); */
+}
+.grid-35 {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(35, minmax(0, 1fr));
+  grid-template-rows: repeat(35, minmax(0, 1fr));
+  aspect-ratio: 1/1;
+  background-size: 2.857% 2.857%;
+  /* background-image: linear-gradient(
+      to right,
+      rgb(78, 78, 78) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(78, 78, 78) 1px, transparent 1px); */
+  /* filter: blur(1px); */
+}
+.grid-85 {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(85, minmax(0, 1fr));
+  grid-template-rows: repeat(85, minmax(0, 1fr));
+  aspect-ratio: 1/1;
+  background-size: 1.176% 1.176%;
+  background-image: linear-gradient(
+      to right,
+      rgb(78, 78, 78) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(78, 78, 78) 1px, transparent 1px);
+  /* filter: blur(1px); */
+}
+.rounded {
+  border-radius: 100%;
+}
