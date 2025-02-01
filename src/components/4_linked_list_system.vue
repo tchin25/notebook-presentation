@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import continue_1 from "../assets/continue_1.png";
 import continue_2 from "../assets/continue_2.png";
+import continue_3 from "../assets/continue_3.png";
+import page from "../assets/page.jpg";
 </script>
 <template>
   <section>
@@ -63,7 +65,19 @@ import continue_2 from "../assets/continue_2.png";
       </h3>
     </section>
     <section>
-      <h3>Fractional Units</h3>
+      <h2>Fractional Units</h2>
+      <h3 class="fragment">Assuming a 40 page notebook...</h3>
+      <div class="flex" style="justify-content: space-around;">
+        <h3 class="fragment">1/40</h3>
+        <h3 class="fragment">20/21</h3>
+        <h3 class="fragment">40/1</h3>
+      </div>
+    </section>
+    <section>
+      <img :src="continue_3" alt="">
+    </section>
+    <section>
+      <img :src="page" style="height: 700px" alt="">
     </section>
     <aside class="notes">
       and then I realized that this means I need page numbers. Now this wouldn't

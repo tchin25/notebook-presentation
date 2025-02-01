@@ -10,6 +10,10 @@ import Slide4 from "./components/4_linked_list_system.vue";
   <Slide2></Slide2>
   <Slide3></Slide3>
   <Slide4></Slide4>
+  <section>
+    <h1>Ok, but is it good?</h1>
+    <h2 class="fragment">You tell me.</h2>
+  </section>
 </template>
 
 <style scoped></style>
